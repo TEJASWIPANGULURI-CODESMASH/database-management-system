@@ -49,3 +49,7 @@ This repository includes a sample Student Management System database where:
 - Teachers manage subjects  
 - Queries generate academic performance reports  
 - Normalization ensures data consistency  
+
+## 🗺 ER Diagram
+
+![ER Diagram](er-diagram.png)
