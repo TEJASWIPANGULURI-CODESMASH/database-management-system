@@ -21,4 +21,24 @@ FROM Students s
 JOIN Enrollment e ON s.student_id = e.student_id
 JOIN Courses c ON e.course_id = c.course_id;
 
-Added data and join query
+-- Added data and join query
+
+-- Count number of students in each department
+SELECT department, COUNT(*) AS total_students
+FROM Students
+GROUP BY department;
+
+-- Find total enrollments per course
+SELECT c.course_name, COUNT(e.enrollment_id) AS total_enrollments
+FROM Courses c
+JOIN Enrollment e ON c.course_id = e.course_id
+GROUP BY c.course_name;
+
+-- Courses having more than 1 student enrolled
+SELECT c.course_name, COUNT(e.enrollment_id) AS student_count
+FROM Courses c
+JOIN Enrollment e ON c.course_id = e.course_id
+GROUP BY c.course_name
+HAVING COUNT(e.enrollment_id) > 1;
+
+--Added advanced SQL queries with GROUP BY and HAVING
