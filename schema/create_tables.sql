@@ -25,4 +25,4 @@ CREATE TABLE Enrollment (
 );
 
 
-Created Students, Courses and Enrollment tables with constraints
+--Created Students, Courses and Enrollment tables with constraints
