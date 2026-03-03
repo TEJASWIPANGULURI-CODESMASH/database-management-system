@@ -53,3 +53,14 @@ This repository includes a sample Student Management System database where:
 ## 🗺 ER Diagram
 
 ![ER Diagram](er-diagram.png)
+
+## 💼 Skills Demonstrated
+
+- Relational Database Design
+- Entity-Relationship Modeling
+- Many-to-Many Relationship Implementation
+- Primary & Foreign Key Constraints
+- Data Normalization (1NF, 2NF, 3NF)
+- SQL Query Writing
+- Aggregate & Analytical Queries
+- Data Integrity Enforcement
